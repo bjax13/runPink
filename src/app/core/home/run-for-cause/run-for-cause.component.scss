@@ -1,0 +1,95 @@
+@import "../../../shared/styles/styleVars";
+
+.flexContainer{
+  padding: 9.23vw 0 10.27vw 0;
+  padding-left: 75px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.main{
+  background-image: url('../../../../assets/images/running-for-a-cause-bg.jpg');
+  height: 43.4vw;
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  &--top{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: .056rem;
+    letter-spacing: .12rem;
+    color: $primaryFontColor;
+  }
+
+  &--title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5.8rem;
+    font-weight: 900;
+    line-height: 1.13;
+    letter-spacing: .3rem;
+    color: $primaryFontColor;
+  }
+
+  &--buttons{
+    display: flex;
+    width: 506px;
+
+    &--button{
+      width: 236px;
+      height: 50px;
+
+      border-width: 2px;
+      border-style: solid;
+      border-radius: 25px;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &--watchVid{
+      margin-right: 34px;
+      border-color: $primaryAccentColor;
+      background: $primaryAccentColor;
+      h5{
+        font-family: 'Source Sans Pro', sans-serif;
+        color: $primaryFontColor;
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: .08rem;
+      }
+    }
+    &--signUp{
+      border-color: $primaryFontColor;
+      h5{
+        font-family: 'Source Sans Pro', sans-serif;
+        color: $primaryFontColor;
+        font-size: 1rem;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: .08rem;
+      }
+    }
+
+  }
+
+
+  &--bottomDivider{
+    align-self: baseline;
+    width: 100vw;
+    height: 1.25vw;
+    background-color: $primaryAccentColor;
+    content: ' ';
+  }
+}
