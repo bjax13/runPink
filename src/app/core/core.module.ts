@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { DiscountBarComponent } from './header/discount-bar/discount-bar.component';
 import { BannerComponent } from './home/banner/banner.component';
+import { RegisterComponent } from './home/register/register.component';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { BannerComponent } from './home/banner/banner.component';
     HeaderComponent,
     FooterComponent,
     DiscountBarComponent,
-    BannerComponent
+    BannerComponent,
+    RegisterComponent
   ],
   exports: [
     HeaderComponent,
