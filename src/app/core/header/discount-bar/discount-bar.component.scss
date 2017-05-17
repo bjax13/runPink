@@ -1,0 +1,36 @@
+
+.discount-bar{
+  height: 38px;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.discount-bar-CTA{
+  font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+	line-height: normal;
+	letter-spacing: 0.8px;
+	text-align: center;
+	color: #ffffff;
+}
+.discount-bar-CTA span{
+  color: #fb0058;
+  text-decoration: underline;
+}
+.discount-bar-social{
+  position: absolute;
+  top: 7px;
+  right: 78px;
+}
+.discount-bar-social-items{
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+}
+.discount-bar-social-items svg{
+  fill: #fb005a;
+}

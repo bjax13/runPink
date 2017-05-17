@@ -1,10 +1,15 @@
 import { NgModule } from '@angular/core';
+import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
+import { HomeComponent } from './core/home/home.component'
+
+const appRoutes: Routes = [
+  {path: '', component: HomeComponent},
+]
+
 @NgModule({
-  imports: [
-    CommonModule
-  ],
-  declarations: []
+  imports: [RouterModule.forRoot(appRoutes, {preloadingStrategy: PreloadAllModules})],
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }

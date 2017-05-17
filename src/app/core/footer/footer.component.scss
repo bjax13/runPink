@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,900i');
+
+.footer-main{
+  height: 138px;
+  background-color: #111;
+  padding: 0 5.2vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links-items{
+  width: 28vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-links-items div{
+  text-transform: uppercase;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	font-weight: 900;
+	letter-spacing: 0.9px;
+	color: #fff;
+}
+
+.footer-social-items{
+  width: 155.4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.footer-social-icon{
+  height: 29px;
+  width: 29px;
+}
+
+.footer-social-icon svg{
+  fill: #fb005a;
+}
+
+.footer-copyright {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 15px;
+	line-height: 1.93;
+	color: #fff;
+}
