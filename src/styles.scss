@@ -1,6 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
 
+// Imports
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two:700i|Montserrat:400,800');
 
+// Global Values
+
+html{
+  font-size: 10px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgba(0,0,0,0.8);
+}
+h1{
+  font-size: 3.3rem;
+}
+h2{
+  font-size: 2.8rem;
+}
+h3{
+  font-size: 2.4rem;
+}
 
 
 

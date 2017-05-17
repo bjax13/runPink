@@ -1,3 +1,4 @@
+@import "../../../shared/styles/styleVars";
 
 .discount-bar{
   height: 38px;
@@ -15,10 +16,10 @@
 	line-height: normal;
 	letter-spacing: 0.8px;
 	text-align: center;
-	color: #ffffff;
+	color: $primaryFontColor;
 }
 .discount-bar-CTA span{
-  color: #fb0058;
+  color: $primaryAccentColor;
   text-decoration: underline;
 }
 .discount-bar-social{
@@ -32,5 +33,5 @@
   width: 130px;
 }
 .discount-bar-social-items svg{
-  fill: #fb005a;
+  fill: $primaryAccentColor;
 }

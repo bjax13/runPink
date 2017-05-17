@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900,900i');
+@import "../../shared/styles/styleVars";
 
 .footer-main{
   height: 138px;
@@ -20,7 +20,7 @@
 	font-size: 14px;
 	font-weight: 900;
 	letter-spacing: 0.9px;
-	color: #fff;
+	color: $primaryFontColor;
 }
 
 .footer-social-items{
@@ -36,12 +36,12 @@
 }
 
 .footer-social-icon svg{
-  fill: #fb005a;
+  fill: $primaryAccentColor;
 }
 
 .footer-copyright {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 15px;
 	line-height: 1.93;
-	color: #fff;
+	color: $primaryFontColor;
 }
