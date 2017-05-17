@@ -19,20 +19,20 @@
 }
 .nav-bar-logo{
   font-family: 'Montserrat', sans-serif;
-	font-size: 27px;
+	font-size: 1.35rem;
 	font-weight: 800;
 	font-style: normal;
 	font-stretch: normal;
 	line-height: normal;
-	letter-spacing: 1.3px;
+	letter-spacing: .065rem;
 	color: $primaryFontColor;
 
 }
 .nav-bar-logo span{
   font-family: 'Lobster Two', cursive;
-	font-size: 37px;
+	font-size: 1.85rem;
 	font-weight: normal;
-	letter-spacing: 1.8px;
+	letter-spacing: .06rem;
 	color: $primaryAccentColor;
 }
 
@@ -42,7 +42,7 @@
   width: 25vw;
   text-transform: uppercase;
   font-family: 'Source Sans Pro', sans-serif;
-	font-size: 18px;
+	font-size: .9rem;
 	font-weight: 900;
 	letter-spacing: 0.8px;
 	text-align: center;
@@ -54,5 +54,5 @@
   align-self: center;
   background-color: $primaryAccentColor;
   width: 89.4vw;
-  height: 6px;
+  height: .4rem;
 }

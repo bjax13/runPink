@@ -1,20 +1,20 @@
 @import "../../../shared/styles/styleVars";
 
 .discount-bar{
-  height: 38px;
-  background-color: #111;
+  height: 1.9rem;
+  background-color: $primaryBackgroundColor;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .discount-bar-CTA{
   font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
+	font-size: .8rem;
 	font-weight: 900;
 	font-style: italic;
 	font-stretch: normal;
 	line-height: normal;
-	letter-spacing: 0.8px;
+	letter-spacing: .04rem;
 	text-align: center;
 	color: $primaryFontColor;
 }
