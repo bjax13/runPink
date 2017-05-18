@@ -10,6 +10,7 @@ import { RegisterComponent } from './home/register/register.component';
 import { RunForCauseComponent } from './home/run-for-cause/run-for-cause.component';
 import { LiftingHeartsComponent } from './home/lifting-hearts/lifting-hearts.component';
 import { SocialComponent } from './home/social/social.component';
+import { VideoModalComponent } from './home/run-for-cause/video-modal/video-modal.component';
 
 @NgModule({
   imports: [
@@ -24,7 +25,9 @@ import { SocialComponent } from './home/social/social.component';
     RegisterComponent,
     RunForCauseComponent,
     LiftingHeartsComponent,
-    SocialComponent
+    SocialComponent,
+    VideoModalComponent,
+
   ],
   exports: [
     HeaderComponent,
