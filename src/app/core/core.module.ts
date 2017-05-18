@@ -8,6 +8,7 @@ import { DiscountBarComponent } from './header/discount-bar/discount-bar.compone
 import { BannerComponent } from './home/banner/banner.component';
 import { RegisterComponent } from './home/register/register.component';
 import { RunForCauseComponent } from './home/run-for-cause/run-for-cause.component';
+import { LiftingHeartsComponent } from './home/lifting-hearts/lifting-hearts.component';
 
 @NgModule({
   imports: [
@@ -20,7 +21,8 @@ import { RunForCauseComponent } from './home/run-for-cause/run-for-cause.compone
     DiscountBarComponent,
     BannerComponent,
     RegisterComponent,
-    RunForCauseComponent
+    RunForCauseComponent,
+    LiftingHeartsComponent
   ],
   exports: [
     HeaderComponent,
