@@ -1,6 +1,8 @@
 @import "../../shared/styles/styleVars";
 
 .footer-main{
+  margin-top: -4px;
+  z-index: 2;
   height: 7rem;
   background-color: $primaryBackgroundColor;
   padding: 0 5.2vw;

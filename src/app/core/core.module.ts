@@ -9,6 +9,7 @@ import { BannerComponent } from './home/banner/banner.component';
 import { RegisterComponent } from './home/register/register.component';
 import { RunForCauseComponent } from './home/run-for-cause/run-for-cause.component';
 import { LiftingHeartsComponent } from './home/lifting-hearts/lifting-hearts.component';
+import { SocialComponent } from './home/social/social.component';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { LiftingHeartsComponent } from './home/lifting-hearts/lifting-hearts.com
     BannerComponent,
     RegisterComponent,
     RunForCauseComponent,
-    LiftingHeartsComponent
+    LiftingHeartsComponent,
+    SocialComponent
   ],
   exports: [
     HeaderComponent,

@@ -1,0 +1,26 @@
+@import "../../../shared/styles/styleVars";
+
+.flexWrap{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  &--box{
+    border: none;
+    width: 33.3333333%;
+    margin-bottom: -13px;
+    z-index: -1;
+    border-width: 0px;
+  }
+
+  &--share{
+    background: $primaryAccentColor
+
+  }
+
+  &--img{
+    img{
+      width: 100%
+    }
+  }
+}
