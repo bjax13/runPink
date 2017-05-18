@@ -12,9 +12,12 @@ import { LiftingHeartsComponent } from './home/lifting-hearts/lifting-hearts.com
 import { SocialComponent } from './home/social/social.component';
 import { VideoModalComponent } from './home/run-for-cause/video-modal/video-modal.component';
 
+import { AppRoutingModule } from '../app-routing.module';
+
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule
   ],
   declarations: [
     HomeComponent,
@@ -31,7 +34,8 @@ import { VideoModalComponent } from './home/run-for-cause/video-modal/video-moda
   ],
   exports: [
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AppRoutingModule
   ]
 })
 export class CoreModule { }
