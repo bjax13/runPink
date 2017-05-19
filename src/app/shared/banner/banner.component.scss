@@ -1,15 +1,14 @@
 @import "../styles/styleVars";
 
-.home-main{
+.main{
   position: relative;
   z-index: -1;
   top: -100px;
   width: 100%;
 }
-.home-banner{
+.banner{
   width: 100%;
-  background-image: url('../../../assets/images/testRunners.jpg');
-  height: 100vh;
+  height: 57vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -21,51 +20,24 @@
   padding-top: 25.9vh;
   padding-bottom: 17.8vh;
 }
-.home-banner img{
+.banner img{
   width: 100%
 }
-.home-banner-title{
+.banner-title{
 
   color: $primaryFontColor;
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+
 }
-.home-banner-title-middle{
-  font-size: 9.51rem;
+.banner-title-text{
+  font-size: 9.2rem;
+  text-transform: uppercase;
   font-weight: 800;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: -1.6px
-}
-.home-banner-title-top{
-  font-style: italic;
-  font-size: 2.3rem;
-  letter-spacing: 2.8px;
-  font-weight: 900;
-}
-.home-banner-title-bottom{
-  font-size: 1.2rem;
-  font-weight: 900;
-  letter-spacing: 1.2px;
-}
-.home-banner-events{
-  height: 74px;
-  width: 344px;
-  background: $primaryAccentColor;
-  border-radius: 37px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px
-}
-.home-banner-events-button{
   font-family: 'Source Sans Pro', sans-serif;
-  color: $primaryFontColor;
-  font-size: 1.153rem;
-  font-weight: 900;
-  letter-spacing: 1.5px;
+  letter-spacing: .9rem;
   font-style: italic;
 }
 
-.home-bottom{
+.bottom{
   margin-bottom: -100px;
 }

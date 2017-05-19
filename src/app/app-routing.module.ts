@@ -4,11 +4,13 @@ import { CommonModule } from '@angular/common';
 
 import { HomeComponent } from './core/home/home.component';
 import { EventsComponent } from './events/events.component';
+import { ResultsComponent } from './results/results.component';
 import { CharitiesComponent } from './charities/charities.component'
 
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'events', component: EventsComponent},
+  {path: 'results', component: ResultsComponent},
   {path: 'charites', component: CharitiesComponent},
 ]
 

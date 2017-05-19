@@ -1,23 +1,10 @@
-<div class="home-main">
-  <div class="home-banner">
-    <div class="home-banner-title">
-      <div class="home-banner-title-top">
-        GIRLS JUST WANNA
-      </div>
-      <div class="home-banner-title-middle">
-        GO RUN!
-      </div>
-      <div class="home-banner-title-bottom">
-        UTAH’S FIRST, LARGEST, AND BEST LADIES ONLY PARTY. JOIN US.
+<div class="main">
+  <div class="banner" [ngStyle]="{'background-image': 'url(' + imgLink + ')'}">
+    <div class="banner-title">
+      <div class="banner-title-text">
+        {{ title }}
       </div>
     </div>
-    <div class="home-banner-events">
-      <div class="home-banner-events-button">
-        SEE EVENTS NEAR YOU
-      </div>
-    </div>
-
   </div>
-
-  <div class="home-bottom"></div>
+  <div class="bottom"></div>
 </div>
