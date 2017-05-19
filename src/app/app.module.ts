@@ -11,6 +11,7 @@ import { CoreModule } from './core/core.module';
 import { EventsComponent } from './events/events.component';
 import { ResultsComponent } from './results/results.component';
 import { CharitiesComponent } from './charities/charities.component';
+import { SharedModule } from './shared/shared.module'
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CharitiesComponent } from './charities/charities.component';
     HttpModule,
     AppRoutingModule,
     CoreModule,
+    SharedModule
   ],
   providers: [],
   bootstrap: [AppComponent]
