@@ -1,0 +1,11 @@
+@import "../../shared/styles/styleVars";
+
+.flexContainer{
+  display: flex;
+
+  background: $primaryAccentColor;
+
+  &--img{
+    margin: 26px;
+  }
+}

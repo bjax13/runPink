@@ -13,7 +13,8 @@ import { ResultsComponent } from './results/results.component';
 import { CharitiesComponent } from './charities/charities.component';
 import { SharedModule } from './shared/shared.module';
 import { YearComponent } from './results/year/year.component';
-import { RaceResultCardComponent } from './results/year/race-result-card/race-result-card.component'
+import { RaceResultCardComponent } from './results/year/race-result-card/race-result-card.component';
+import { CurrentComponent } from './charities/current/current.component'
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { RaceResultCardComponent } from './results/year/race-result-card/race-re
     CharitiesComponent,
     YearComponent,
     RaceResultCardComponent,
+    CurrentComponent,
   ],
   imports: [
     BrowserModule,
