@@ -1,0 +1,26 @@
+@import "../../shared/styles/styleVars";
+
+.races{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100vw;
+  height: 45.83vw;
+  padding-bottom: 3.611vw;
+  padding-top: 4.236vw;
+
+  &--title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    letter-spacing: .25rem;
+    color: $secondaryFontColor;
+  }
+}
+
+.flexContainer{
+  display: flex;
+  justify-content: space-between;
+}

@@ -11,7 +11,9 @@ import { CoreModule } from './core/core.module';
 import { EventsComponent } from './events/events.component';
 import { ResultsComponent } from './results/results.component';
 import { CharitiesComponent } from './charities/charities.component';
-import { SharedModule } from './shared/shared.module'
+import { SharedModule } from './shared/shared.module';
+import { YearComponent } from './results/year/year.component';
+import { RaceResultCardComponent } from './results/year/race-result-card/race-result-card.component'
 
 @NgModule({
   declarations: [
@@ -19,6 +21,8 @@ import { SharedModule } from './shared/shared.module'
     EventsComponent,
     ResultsComponent,
     CharitiesComponent,
+    YearComponent,
+    RaceResultCardComponent,
   ],
   imports: [
     BrowserModule,
