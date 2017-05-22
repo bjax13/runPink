@@ -7,6 +7,9 @@
     *ngFor="let race of yearArr[1]"
     [raceArr]="race"></app-race-result-card>
 
-
+  </div>
+  <div *ngIf="!lastYear"class="races--underscore">
+  </div>
+  <div *ngIf="lastYear"class="races--noUnderscore">
   </div>
 </div>

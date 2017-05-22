@@ -7,11 +7,13 @@ import { Component, OnInit , Input} from '@angular/core';
 })
 export class YearComponent implements OnInit {
   @Input() yearArr: any[];
+  @Input() index: number;
+  @Input() lastYear: boolean;
 
 
   constructor() { }
 
   ngOnInit() {
-  } 
+  }
 
 }
