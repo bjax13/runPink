@@ -37,6 +37,16 @@ export class ResultsComponent implements OnInit {
 
       ]
     ],
+    ['Past Charites',
+      [
+        [
+          'UTAH COUNTY 5K/10K',
+          'April 19, 2014' ,
+          'www.google.com'
+        ],
+
+      ]
+    ],
     [2014,
       [
         [

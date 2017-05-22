@@ -1,11 +1,63 @@
 @import "../../shared/styles/styleVars";
 
-.flexContainer{
+.currentCharity{
   display: flex;
 
   background: $primaryAccentColor;
 
-  &--img{
+  &__img{
     margin: 26px;
+  }
+
+  &__details{
+    padding: 2.43vw 4.5138vw 4.5vw 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__title{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-style: italic;
+    color: $primaryFontColor;
+  }
+  &__name{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-style: italic;
+    color: $primaryFontColor;
+  }
+  &__info{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.55;
+    color: $secondaryFontColor;
+  }
+  &__button{
+
+  }
+  &__buttonBorder{
+    width: 236px;
+    height: 50px;
+    border-color: $primaryFontColor;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  &__buttonText{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    color: $primaryFontColor;
+    font-style: italic;
+    text-transform: uppercase;
   }
 }

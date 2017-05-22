@@ -11,3 +11,8 @@
   </div>
 </div>
 <app-current></app-current>
+<app-year
+*ngFor="let year of years; let i = index ; let last = last"
+[yearArr]="year"
+[index]="i"
+[lastYear]="last"></app-year>
