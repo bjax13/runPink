@@ -18,7 +18,7 @@ export class CharitiesComponent implements OnInit {
         [
           'Pink Series Charity of 2013',
           'IMAGE REBORN FOUNDATION' ,
-          'www.google.com'
+          'www.gooogle.com'
         ],
 
       ]
