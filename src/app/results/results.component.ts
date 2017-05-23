@@ -13,17 +13,20 @@ export class ResultsComponent implements OnInit {
         [
           'PARK CITY HALF MARATHON, 5K/10K',
           'October 10, 2015' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
         [
           'SPRING 5K/10K PLEASANT GROVE',
           'October 10, 2015' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
         [
           'SPRING 5K/10K PLEASANT GROVE',
           'October 10, 2015' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
       ]
     ],
@@ -32,7 +35,8 @@ export class ResultsComponent implements OnInit {
         [
           'UTAH COUNTY 5K/10K',
           'April 19, 2014' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
 
       ]
@@ -42,7 +46,8 @@ export class ResultsComponent implements OnInit {
         [
           'UTAH COUNTY 5K/10K',
           'April 19, 2014' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
 
       ]
@@ -52,22 +57,26 @@ export class ResultsComponent implements OnInit {
         [
           'UTAH COUNTY 5K/10K',
           'April 19, 2014' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
         [
           'PARK CITY HALF MARATHON AND 5K',
           'October 11, 2014' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
         [
           'PARK CITY HALF MARATHON AND 5K',
           'October 11, 2014' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
         [
           'PARK CITY HALF MARATHON AND 5K',
           'October 11, 2014' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
       ]
     ],
@@ -76,27 +85,32 @@ export class ResultsComponent implements OnInit {
         [
           'UTAH COUNTY 5K/10K',
           'April 19, 2014' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
         [
           'PARK CITY HALF MARATHON AND 5K',
           'October 11, 2014' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
         [
           'PARK CITY HALF MARATHON AND 5K',
           'October 11, 2014' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
         [
           'PARK CITY HALF MARATHON AND 5K',
           'October 11, 2014' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
         [
           'PARK CITY HALF MARATHON AND 5K',
           'October 11, 2014' ,
-          'www.google.com'
+          'www.google.com',
+          ''
         ],
       ]
     ],
