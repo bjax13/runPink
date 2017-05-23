@@ -13,12 +13,16 @@ export class CharitiesComponent implements OnInit {
         [
           'Pink Series Charity of 2014',
           'THE CHRISTI ANDERSON RACK PACK FOUNDATION' ,
-          'www.google.com'
+          'www.google.com',
+          'assets/images/banners/solidPink.png',
+          'VISIT PAGE'
         ],
         [
           'Pink Series Charity of 2013',
           'IMAGE REBORN FOUNDATION' ,
-          'www.google.com'
+          'www.google.com',
+          'assets/images/banners/solidPink.png',
+          'VISIT PAGE'
         ],
 
       ]
