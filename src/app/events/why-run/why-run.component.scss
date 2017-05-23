@@ -1,0 +1,31 @@
+@import "../../shared/styles/styleVars";
+
+.whyRun{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 4.8vw 0vw 6.11vw;
+
+  &__title{
+    color: $primaryAccentColor;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: .08rem;
+    padding-bottom: 3vw;
+
+  }
+
+  &__text{
+    width: 83.33vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $secondaryFontColor;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 1.45;
+    color: $secondaryFontColor;
+  }
+}
