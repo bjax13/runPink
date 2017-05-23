@@ -1,0 +1,50 @@
+@import "../../shared/styles/styleVars";
+
+.pricing{
+  width: 43.5vw;
+
+
+  &__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: .07rem;
+    color: $primaryBackgroundColor;
+    padding-bottom: 2rem;
+  }
+
+  &__boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 33.541666vw;
+  }
+  &__registerNow{
+    background: $primaryAccentColor;
+    width: 43.5vw;
+    height: 16.31944vw;
+  }
+  &__smallBox{
+    width: 43.5vw;
+    height: 16.31944vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
+  }
+  &__groupDiscount{
+    background: $primaryAccentColor;
+    width: 21.3vw;
+    height: 16.31944vw;
+  }
+  &__sameDay{
+    background: $secondaryFontColor;
+    width: 21.3vw;
+    height: 16.31944vw;
+  }
+
+
+}
