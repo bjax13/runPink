@@ -1,0 +1,31 @@
+@import "../../shared/styles/styleVars";
+
+.course{
+  width: 43.5vw;
+
+
+  &__title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: .07rem;
+    color: $primaryBackgroundColor;
+    padding-bottom: 2rem;
+  }
+
+  &__location{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: $secondaryFontColor;
+    font-size: .9rem;
+    line-height: 1.8;
+    padding-bottom: .7rem;
+
+    &Bold{
+      font-weight: bold;
+    }
+    &Link{
+      color: $primaryAccentColor;
+      text-decoration: underline;
+    }
+  }
+}
