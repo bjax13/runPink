@@ -2,7 +2,7 @@
 
 .course{
   width: 43.5vw;
-
+  margin-bottom: 3rem;
 
   &__title{
     font-family: 'Montserrat', sans-serif;
@@ -27,6 +27,12 @@
       color: $primaryAccentColor;
       text-decoration: underline;
     }
+
   }
-  margin-bottom: 3rem;
+  &__map{
+    width: 43.5vw;
+    img{
+      width: 100%;
+    }
+  }
 }
