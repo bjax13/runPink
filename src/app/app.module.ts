@@ -5,13 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
-import { AppRoutingModule } from './app-routing.module';
-
 import { CoreModule } from './core/core.module';
-import { EventsComponent } from './events/events.component';
+import { AppRoutingModule } from './app-routing.module';
+import { EventsModule } from './events/events.module'
+import { SharedModule } from './shared/shared.module';
+
 import { ResultsComponent } from './results/results.component';
 import { CharitiesComponent } from './charities/charities.component';
-import { SharedModule } from './shared/shared.module';
 import { YearComponent } from './results/year/year.component';
 import { RaceResultCardComponent } from './results/year/race-result-card/race-result-card.component';
 import { CurrentComponent } from './charities/current/current.component'
@@ -19,7 +19,7 @@ import { CurrentComponent } from './charities/current/current.component'
 @NgModule({
   declarations: [
     AppComponent,
-    EventsComponent,
+
     ResultsComponent,
     CharitiesComponent,
     YearComponent,
@@ -32,7 +32,8 @@ import { CurrentComponent } from './charities/current/current.component'
     HttpModule,
     AppRoutingModule,
     CoreModule,
-    SharedModule
+    SharedModule,
+    EventsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
