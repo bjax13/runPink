@@ -9,6 +9,7 @@ import { CoreModule } from './core/core.module';
 import { AppRoutingModule } from './app-routing.module';
 import { EventsModule } from './events/events.module'
 import { SharedModule } from './shared/shared.module';
+import { RegistrationModule } from './registration/registration.module';
 
 import { ResultsComponent } from './results/results.component';
 import { CharitiesComponent } from './charities/charities.component';
@@ -33,7 +34,8 @@ import { CurrentComponent } from './charities/current/current.component'
     AppRoutingModule,
     CoreModule,
     SharedModule,
-    EventsModule
+    EventsModule,
+    RegistrationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
