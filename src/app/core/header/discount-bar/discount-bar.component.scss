@@ -1,6 +1,10 @@
 @import "../../../shared/styles/styleVars";
 
+
+
 .discount-bar{
+  z-index: 5;
+  width: 100vw;
   height: 1.9rem;
   background-color: $primaryBackgroundColor;
   display: flex;

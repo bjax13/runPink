@@ -48,6 +48,7 @@
     width: 506px;
 
     &--button{
+      cursor: pointer;
       width: 236px;
       height: 50px;
 
@@ -65,6 +66,7 @@
       border-color: $primaryAccentColor;
       background: $primaryAccentColor;
       h5{
+        cursor:inherit;
         font-family: 'Source Sans Pro', sans-serif;
         color: $primaryFontColor;
         font-size: 1rem;
@@ -74,8 +76,11 @@
       }
     }
     &--signUp{
+      cursor:pointer;
       border-color: $primaryFontColor;
+
       h5{
+        cursor:pointer;
         font-family: 'Source Sans Pro', sans-serif;
         color: $primaryFontColor;
         font-size: 1rem;
