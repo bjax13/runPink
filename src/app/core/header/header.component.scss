@@ -9,7 +9,6 @@
   position: absolute;
   top: auto;
   left: 4rem;
-  z-index: 344;
   height: 100px;
   // background: #333;
   background: none;
@@ -46,7 +45,7 @@
 }
 
 .nav-bar-buttons{
-  cursor: pointer;
+
   display: flex;
   justify-content: space-between;
   width: 25vw;
@@ -57,6 +56,10 @@
 	letter-spacing: 0.8px;
 	text-align: center;
 	color: $primaryFontColor;
+
+  &Button{
+    cursor: pointer;
+  }
 }
 
 
