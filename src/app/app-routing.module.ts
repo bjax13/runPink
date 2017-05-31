@@ -8,6 +8,8 @@ import { ResultsComponent } from './results/results.component';
 import { CharitiesComponent } from './charities/charities.component'
 import { RegistrationComponent } from './registration/registration.component'
 
+
+
 const appRoutes: Routes = [
   {path: '', component: HomeComponent},
   {path: 'events', component: EventsComponent},

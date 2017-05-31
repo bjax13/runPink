@@ -15,7 +15,8 @@ import { ResultsComponent } from './results/results.component';
 import { CharitiesComponent } from './charities/charities.component';
 import { YearComponent } from './results/year/year.component';
 import { RaceResultCardComponent } from './results/year/race-result-card/race-result-card.component';
-import { CurrentComponent } from './charities/current/current.component'
+import { CurrentComponent } from './charities/current/current.component';
+
 
 @NgModule({
   declarations: [
