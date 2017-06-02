@@ -1,6 +1,7 @@
 @import "../../../shared/styles/styleVars";
 
 .register{
+  width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +20,7 @@
   &__info {
     width: 62vw;
     height: 100%;
-    padding:  7.9vh 5.8vw 10vh;
+    padding:  7.9vh 5vw 10vh;
 
     display: flex;
     flex-direction: column;

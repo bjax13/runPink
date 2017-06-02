@@ -1,10 +1,10 @@
 @import "../../shared/styles/styleVars";
 
 .footer-main{
-  margin-top: -4px;
+  width: 100vw;
   height: 7rem;
   background-color: $primaryBackgroundColor;
-  padding: 0 5.2vw;
+  padding: 0 5vw;
   display: flex;
   justify-content: space-between;
   align-items: center;

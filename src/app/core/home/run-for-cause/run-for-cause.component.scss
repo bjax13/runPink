@@ -1,14 +1,15 @@
 @import "../../../shared/styles/styleVars";
 
 .flexContainer{
+  width: 100vw;
   padding: 9.23vw 0 10.27vw 0;
-  padding-left: 75px;
+  // padding-left: 75px;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
   flex-direction: column;
   height: 100%;
-  
+
 }
 
 .main{
