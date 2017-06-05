@@ -17,6 +17,35 @@ $lightBackground: #f0f0f0;
   background: $gray;
 }
 
+.runner{
+
+  &__pinkBold{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: .1rem;
+    color: $primaryAccentColor;
+    text-transform: uppercase;
+
+    &--padRight{
+      padding-right: 1.5rem;
+    }
+  }
+
+  &__pinkUnderline{
+    color: $primaryAccentColor;
+    text-decoration: underline;
+  }
+
+  &__id{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    border-top: .1rem solid $lightGray;
+    border-bottom: .1rem solid $lightGray;
+    padding: 1rem 0;
+  }
+}
+
 .registrationForm{
 
   &__title{
@@ -96,6 +125,8 @@ $lightBackground: #f0f0f0;
     font-size: .8rem;
     line-height: 1.93;
     padding-bottom: .7rem;
+    &--darkGray{
+      color: $darkerGray;
+    }
   }
-
 }
