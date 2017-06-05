@@ -51,6 +51,14 @@ $lightBackground: #f0f0f0;
       flex-wrap: wrap;
       padding-bottom: 1rem;
     }
+    &--twoThird{
+      min-width: 150px;
+      width: 43vw;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-bottom: 1rem;
+    }
     &--quarter{
       min-width: 150px;
       width: 13.6vw;
