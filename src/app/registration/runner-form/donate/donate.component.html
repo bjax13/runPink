@@ -4,13 +4,28 @@
   </div>
 
   <div class="registrationForm__group">
-    <div class="registrationForm__input--quarter">
+    <div class="registrationForm__input">
       <label for="donationAmount" class="registrationForm__subtitle">donation amount<span class="registrationForm__pink">*</span></label>
-      <input type="text" id="donationAmount" class="registrationForm__inputBox">
+      <div class="">
+        <span class="registrationForm__subtitle registrationForm__subtitle--dollar">$</span><input type="text" id="donationAmount" class="registrationForm__inputBox"  placeholder="0.00">
+      </div>
     </div>
-    <div class="registrationForm__input--quarter">
-      <label for="onBehalf" class="registrationForm__subtitle">on behalf of<span class="registrationForm__pink">*</span></label>
-      <input type="text" id="onBehalf" class="registrationForm__inputBox">
+
+    <div class="registrationForm__input">
+      <label for="gender" class="registrationForm__subtitle">on behalf of<span class="registrationForm__pink">*</span></label>
+      <div class="registrationForm__inputRadio">
+        <div class="registrationForm__inputRadioAlign">
+          <input type="radio" id="onBehalf" checked="checked" name="onBehalf"> <span class="registrationForm__inputRadioText">My Name</span>
+        </div>
+        <div class="registrationForm__inputRadioAlign">
+          <input type="radio" id="onBehalf" name="onBehalf"> <span class="registrationForm__inputRadioText">Anonymous</span>
+        </div>
+      </div>
+      <div class="registrationForm__inputRadio">
+        <div class="registrationForm__inputRadioAlign">
+          <input type="radio" id="onBehalf" name="onBehalf">  <span class="registrationForm__inputRadioText">other</span> <input type="text" id="onsBehalf" name="onBehalf" class="registrationForm__padLeft">
+        </div>
+      </div>
     </div>
 
   </div>

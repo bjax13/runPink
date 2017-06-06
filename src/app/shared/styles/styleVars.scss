@@ -101,7 +101,7 @@ $lightBackground: #f0f0f0;
       padding-bottom: 1rem;
     }
     &--quarter{
-      min-width: 150px;
+      min-width: 125px;
       width: 13.6vw;
       display: flex;
       flex-direction: column;
@@ -151,6 +151,9 @@ $lightBackground: #f0f0f0;
     font-size: 1rem;
     line-height: 1.61;
     text-transform: capitalize;
+    &--dollar{
+      padding: 0 .8rem;
+    }
   }
 
   &__description{
@@ -163,5 +166,9 @@ $lightBackground: #f0f0f0;
     &--darkGray{
       color: $darkerGray;
     }
+  }
+
+  &__padLeft{
+    margin-left: .5rem;
   }
 }
