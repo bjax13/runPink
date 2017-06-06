@@ -16,6 +16,10 @@ $lightBackground: #f0f0f0;
   width: 100%;
   background: $gray;
 }
+.sg-replace-icons input[type=radio]:checked + label,
+.sg-replace-icons input[type=checkbox].sg-input-checkbox:checked + label{
+    color:#F06586;
+}
 
 .runner{
 
@@ -80,6 +84,14 @@ $lightBackground: #f0f0f0;
       flex-wrap: wrap;
       padding-bottom: 1rem;
     }
+    &--oneThird{
+      min-width: 175px;
+      width: 17.5vw;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding-bottom: 1rem;
+    }
     &--twoThird{
       min-width: 150px;
       width: 43vw;
@@ -96,11 +108,33 @@ $lightBackground: #f0f0f0;
       flex-wrap: wrap;
       padding-bottom: 1rem;
     }
+    &Radio{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      &Align{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        padding-right: 3vw;
+      }
+      &Text{
+        padding-left: .5rem;
+        padding-bottom: .1rem;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: $gray;
+        font-size: 1rem;
+        line-height: 1.61;
+        text-transform: capitalize;
+      }
+    }
     &Box{
       height: 2.5rem;
       border-radius: 3px;
       border: 1px solid $gray;
       text-transform: capitalize;
+      padding-left: 1rem;
     }
   }
 

@@ -5,17 +5,24 @@
   </div>
 
   <div class="registrationForm__group">
-    <div class="registrationForm__input">
+    <div class="registrationForm__input--oneThird">
       <label for="DOB" class="registrationForm__subtitle">Date of birth<span class="registrationForm__pink">*</span></label>
-      <input type="text" id="DOB" class="registrationForm__inputBox">
+      <input type="text" id="DOB" class="registrationForm__inputBox" placeholder="DD/MM/YYYY">
     </div>
-    <div class="registrationForm__input">
+    <div class="registrationForm__input--oneThird">
       <label for="gender" class="registrationForm__subtitle">Gender<span class="registrationForm__pink">*</span></label>
-      <input type="text" id="gender" class="registrationForm__inputBox">
+      <div class="registrationForm__inputRadio">
+        <div class="registrationForm__inputRadioAlign">
+          <input type="radio" id="gender" checked="checked" name="gender"> <span class="registrationForm__inputRadioText">Female</span>
+        </div>
+        <div class="registrationForm__inputRadioAlign">
+          <input type="radio" id="gender" name="gender"> <span class="registrationForm__inputRadioText">Male</span>
+        </div>
+      </div>
     </div>
-    <div class="registrationForm__input">
+    <div class="registrationForm__input--oneThird">
       <label for="phone" class="registrationForm__subtitle">phone<span class="registrationForm__pink">*</span></label>
-      <input type="text" id="phone" class="registrationForm__inputBox">
+      <input type="text" id="phone" class="registrationForm__inputBox" placeholder="___-___-_____">
     </div>
 
     <div class="registrationForm__description">
