@@ -13,13 +13,14 @@ import { RaceQuestionsComponent } from './runner-form/race-questions/race-questi
 import { DonateComponent } from './runner-form/donate/donate.component';
 import { BillingInfoComponent } from './cardinfo/billing-info/billing-info.component';
 import { PaymentInfoComponent } from './cardinfo/payment-info/payment-info.component';
+import { SaveDataComponent } from './runner-form/save-data/save-data.component';
 
 @NgModule({
   imports: [
     CommonModule,
     SharedModule
   ],
-  declarations: [RegistrationComponent, RunnerFormComponent, OrderSummaryComponent, AddAnotherRunnerComponent, CardinfoComponent, BasicInfoComponent, AddressComponent, AdditionalInfoComponent, RaceQuestionsComponent, DonateComponent, BillingInfoComponent, PaymentInfoComponent],
+  declarations: [RegistrationComponent, RunnerFormComponent, OrderSummaryComponent, AddAnotherRunnerComponent, CardinfoComponent, BasicInfoComponent, AddressComponent, AdditionalInfoComponent, RaceQuestionsComponent, DonateComponent, BillingInfoComponent, PaymentInfoComponent, SaveDataComponent],
   exports: [RegistrationComponent]
 })
 export class RegistrationModule { }
