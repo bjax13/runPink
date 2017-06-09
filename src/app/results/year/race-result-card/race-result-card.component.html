@@ -1,16 +1,16 @@
 <div
   class="card"
-  [ngStyle]="{'background-image': 'url(' + raceArr[3] + ')'}"
+  [ngStyle]="{'background-image': 'url(' + raceArr.imgLink + ')'}"
   >
   <div class="card--title">
-    {{ raceArr[0] }}
+    {{ raceArr.title }}
   </div>
   <div class="card--date">
-    {{ raceArr[1] }}
+    {{ raceArr.date }}
   </div>
   <a class="card--button"  target="_blank" [href]="raceArr[2]">
     <div class="card--button--text">
-      {{ raceArr[4] }}
+      {{ raceArr.buttonText || "button" }}
     </div>
   </a>
 </div>

@@ -6,7 +6,7 @@ import { Component, OnInit , Input} from '@angular/core';
   styleUrls: ['./race-result-card.component.scss']
 })
 export class RaceResultCardComponent implements OnInit {
-  @Input() raceArr: string[];
+  @Input() raceArr: {};
 
   constructor() { }
 

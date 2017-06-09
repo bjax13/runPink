@@ -1,10 +1,10 @@
 <div class="races">
   <div class="races--title">
-    <h3>{{yearArr[0]}} RACES</h3>
+    <h3>{{yearArr.title}}</h3>
   </div>
   <div class="flexContainer" >
     <app-race-result-card
-    *ngFor="let race of yearArr[1]"
+    *ngFor="let race of yearArr.raceArr"
     [raceArr]="race"></app-race-result-card>
 
   </div>
