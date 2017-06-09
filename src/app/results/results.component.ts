@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 import { DataService } from '../shared/services/data-service.service';
 
 
@@ -8,7 +8,7 @@ import { DataService } from '../shared/services/data-service.service';
   styleUrls: ['./results.component.scss'],
   providers: [DataService]
 })
-export class ResultsComponent implements OnInit {
+export class ResultsComponent {
   years = [];
   resultData = [];
 
@@ -43,98 +43,11 @@ export class ResultsComponent implements OnInit {
                }
            }
          }
-         
+
          this.years.sort((a,b)=>{
            return a.raceArr[0].date.slice(0,4) - b.raceArr[0].date.slice(0,4);
          })
      }
 
    }
-
-
-
-
-
-  // [
-  //   [2015,
-  //     [
-  //       [
-  //         'SPRING 5K/10K PLEASANT GROVE',
-  //         'October 10, 2015' ,
-  //         'www.google.com',
-  //         'assets/images/results/group-2.jpg',
-  //         'SEE RESULTS'
-  //       ],
-  //       [
-  //         'PARK CITY HALF MARATHON, 5K/10K',
-  //         'October 10, 2015' ,
-  //         'www.google.com',
-  //         'assets/images/results/group-3.jpg',
-  //         'SEE RESULTS'
-  //       ],
-  //     ]
-  //   ],
-  //   [2014,
-  //     [
-  //       [
-  //         'UTAH COUNTY 5K/10K',
-  //         'April 19, 2014' ,
-  //         'www.google.com',
-  //         'assets/images/results/group-4.jpg',
-  //         'SEE RESULTS'
-  //       ],
-  //       [
-  //         'PARK CITY HALF MARATHON AND 5K',
-  //         'October 11, 2014' ,
-  //         'www.google.com',
-  //         'assets/images/results/group-5.jpg',
-  //         'SEE RESULTS'
-  //       ],
-  //
-  //     ]
-  //   ],
-  //   [2013,
-  //     [
-  //       [
-  //         'PLEASANT GROVE 5K',
-  //         'April 27, 2013' ,
-  //         'www.google.com',
-  //         'assets/images/results/group-6.jpg',
-  //         'SEE RESULTS'
-  //       ],
-  //       [
-  //         'PARK CITY HALF MARATHON AND 5K',
-  //         'October 12, 2013' ,
-  //         'www.google.com',
-  //         'assets/images/results/group-7.jpg',
-  //         'SEE RESULTS'
-  //       ],
-  //
-  //     ]
-  //   ],
-  //   [2012,
-  //     [
-  //       [
-  //         'PLEASANT GROVE 5K',
-  //         'April 27, 2012' ,
-  //         'www.google.com',
-  //         'assets/images/results/group-6.jpg',
-  //         'SEE RESULTS'
-  //       ],
-  //       [
-  //         'PARK CITY HALF MARATHON AND 5K',
-  //         'October 13, 2012' ,
-  //         'www.google.com',
-  //         'assets/images/results/group-7.jpg',
-  //         'SEE RESULTS'
-  //       ],
-  //     ]
-  //   ],
-  // ]
-
-
-
-  ngOnInit() {
-  }
-
 }
