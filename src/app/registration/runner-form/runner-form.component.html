@@ -6,7 +6,63 @@
   </div>
 
   <form class="" action="index.html" method="post">
-    <app-basic-info></app-basic-info>
+
+    <!-- Basic Info section  -->
+
+    <div class="registrationForm">
+      <div class="registrationForm__title">
+        Basic info
+      </div>
+      <div class="registrationForm__group">
+        <div class="registrationForm__input">
+          <label for="firstName" class="registrationForm__subtitle">First Name<span class="registrationForm__pink">*</span></label>
+          <input
+            type="text"
+            id="firstName"
+            class="registrationForm__inputBox">
+        </div>
+        <div class="registrationForm__input">
+          <label for="lastName" class="registrationForm__subtitle">Last Name<span class="registrationForm__pink">*</span></label>
+          <input
+            type="text"
+            id="lastName"
+            class="registrationForm__inputBox">
+        </div>
+        <div class="registrationForm__input">
+          <label for="email" class="registrationForm__subtitle">Email<span class="registrationForm__pink">*</span></label>
+          <input
+            type="text"
+            id="email"
+            class="registrationForm__inputBox">
+        </div>
+        <div class="registrationForm__input">
+          <label for="confirmEmail" class="registrationForm__subtitle">Confirm Email<span class="registrationForm__pink">*</span></label>
+          <input
+            type="text"
+            id="confirmEmail"
+            class="registrationForm__inputBox">
+        </div>
+        <div class="registrationForm__input">
+          <label for="password" class="registrationForm__subtitle">Password<span class="registrationForm__pink">*</span></label>
+          <input
+            type="text"
+            id="password"
+            class="registrationForm__inputBox">
+        </div>
+        <div class="registrationForm__input">
+          <label for="confirmPassword" class="registrationForm__subtitle">Confirm Password<span class="registrationForm__pink">*</span></label>
+          <input
+            type="text"
+            id="confirmPassword"
+            class="registrationForm__inputBox">
+        </div>
+        <div class="registrationForm__description">
+          To be able to access / edit your registration
+        </div>
+      </div>
+    </div>
+
+    <!-- <app-basic-info></app-basic-info> -->
     <app-address></app-address>
     <app-additional-info></app-additional-info>
     <app-race-questions></app-race-questions>
