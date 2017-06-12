@@ -27,18 +27,19 @@ export class ResultsComponent {
            this.resultData[i].imgLink = "assets/images/banners/solidPink.png"
          }
 
+         let year = this.resultData[i].date.slice(0,4);
          //checked to see what year the race data was for and organized by year
-         if(tempArr.indexOf(this.resultData[i].date.slice(0,4)) === -1){
-           tempArr.push(this.resultData[i].date.slice(0,4))
+         if(tempArr.indexOf(year) === -1){
+           tempArr.push(year)
            this.years.push(
              {
-               "title": this.resultData[i].date.slice(0,4)+ " Races",
+               "title": year+ " Races",
                "raceArr": [this.resultData[i]]
              }
            )
          }else{
            for (let j = 0; j < this.years.length; j++) {
-               if (this.years[j].raceArr[0].date.slice(0,4) === this.resultData[i].date.slice(0,4)) {
+               if (this.years[j].raceArr[0].date.slice(0,4) === year) {
                    this.years[j].raceArr.push(this.resultData[i]);
                }
            }
