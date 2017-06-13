@@ -32,9 +32,15 @@ export class RunnerFormComponent implements OnInit {
     let password ='';
     let confirmPassword ='';
 
-    let streetAddress ="test - streetAddress";
-    let zipCode ="test - zipCode";
-    let city ="test - city";
+    let streetAddress ="";
+    let zipCode ="";
+    let city ="";
+    let country ="United States";
+    let state ="Utah";
+
+    let dateOfBirth ="";
+    let gender ="Female";
+    let phone ="";
 
     if(this.editMode){
       //if implementing editMode get runner from service then assign values
@@ -53,7 +59,15 @@ export class RunnerFormComponent implements OnInit {
       'streetAddress': new FormControl(streetAddress),
       'zipCode': new FormControl(zipCode),
       'city': new FormControl(city),
-      
+      'country': new FormControl(country),
+      'state': new FormControl(state),
+
+      'DOB': new FormControl(dateOfBirth),
+      'gender': new FormControl(gender),
+      'phone': new FormControl(phone),
+
+
+
     })
   }
 

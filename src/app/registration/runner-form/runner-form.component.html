@@ -97,7 +97,7 @@
           <label
           for="country" class="registrationForm__subtitle">
           country<span class="registrationForm__pink">*</span></label>
-          <select type="text" id="country" class="registrationForm__inputBox">
+          <select type="text" id="country" formControlName="country" class="registrationForm__inputBox">
             <option type="text" class="registrationForm__inputBox">United States</option>
             <option type="text" class="registrationForm__inputBox">Mexico</option>
             <option type="text" class="registrationForm__inputBox">Canada</option>
@@ -127,7 +127,7 @@
           <label
           for="state" class="registrationForm__subtitle">
           state<span class="registrationForm__pink">*</span></label>
-          <select type="text" id="state" class="registrationForm__inputBox">
+          <select type="text" id="state" formControlName="state" class="registrationForm__inputBox">
             <option type="text"  class="registrationForm__inputBox">Utah</option>
             <option type="text"  class="registrationForm__inputBox">Idaho</option>
             <option type="text"  class="registrationForm__inputBox">Navada</option>
@@ -137,10 +137,67 @@
       </div>
     </div>
 
-
     <!-- <app-address></app-address> -->
 
-    <app-additional-info></app-additional-info>
+    <div class="registrationForm">
+      <div class="registrationForm__title">
+        additional information
+      </div>
+
+      <div class="registrationForm__group">
+        <div class="registrationForm__input--oneThird">
+          <label
+          for="DOB" class="registrationForm__subtitle">
+            Date of birth<span class="registrationForm__pink">*</span></label>
+          <input
+            type="text"
+            id="DOB"
+            class="registrationForm__inputBox"
+            formControlName="DOB"
+            placeholder="DD/MM/YYYY">
+        </div>
+        <div class="registrationForm__input--oneThird">
+          <label
+          for="gender" class="registrationForm__subtitle">
+            Gender<span class="registrationForm__pink">*</span></label>
+          <div class="registrationForm__inputRadio">
+            <div class="registrationForm__inputRadioAlign">
+              <input
+                type="radio"
+                id="gender"
+                checked="checked"
+                name="gender">
+                <span class="registrationForm__inputRadioText">
+                  Female</span>
+            </div>
+            <div class="registrationForm__inputRadioAlign">
+              <input
+                type="radio"
+                id="gender"
+                name="gender">
+                <span class="registrationForm__inputRadioText">
+                  Male</span>
+            </div>
+          </div>
+        </div>
+        <div class="registrationForm__input--oneThird">
+          <label
+          for="phone" class="registrationForm__subtitle">
+            phone<span class="registrationForm__pink">*</span></label>
+          <input
+            type="text"
+            id="phone"
+            class="registrationForm__inputBox"
+            placeholder="___-___-_____">
+        </div>
+
+        <div class="registrationForm__description">
+          Used for age group calculations
+        </div>
+      </div>
+    </div>
+
+    <!-- <app-additional-info></app-additional-info> -->
 
     <app-race-questions></app-race-questions>
 
