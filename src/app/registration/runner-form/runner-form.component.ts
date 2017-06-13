@@ -42,6 +42,13 @@ export class RunnerFormComponent implements OnInit {
     let gender ="Female";
     let phone ="";
 
+    let event ="";
+    let shirtSize ="";
+    let groupDiscount ="";
+    let releaseWaiver ="";
+
+
+
     if(this.editMode){
       //if implementing editMode get runner from service then assign values
       // const runner = this.runnerService.getRunner(this.id)
@@ -65,6 +72,11 @@ export class RunnerFormComponent implements OnInit {
       'DOB': new FormControl(dateOfBirth),
       'gender': new FormControl(gender),
       'phone': new FormControl(phone),
+
+      'event': new FormControl(event),
+      'shirtSize': new FormControl(shirtSize),
+      'groupDiscount': new FormControl(groupDiscount),
+      'releaseWaiver': new FormControl(releaseWaiver),
 
 
 
