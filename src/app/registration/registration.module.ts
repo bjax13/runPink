@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
 import { RegistrationComponent } from './registration.component';
 import { SharedModule } from '../shared/shared.module';
 import { RunnerFormComponent } from './runner-form/runner-form.component';
@@ -18,9 +21,15 @@ import { SaveDataComponent } from './runner-form/save-data/save-data.component';
 @NgModule({
   imports: [
     CommonModule,
-    SharedModule
+    SharedModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   declarations: [RegistrationComponent, RunnerFormComponent, OrderSummaryComponent, AddAnotherRunnerComponent, CardinfoComponent, BasicInfoComponent, AddressComponent, AdditionalInfoComponent, RaceQuestionsComponent, DonateComponent, BillingInfoComponent, PaymentInfoComponent, SaveDataComponent],
-  exports: [RegistrationComponent]
+  exports: [
+    RegistrationComponent,
+    FormsModule,
+    ReactiveFormsModule
+  ]
 })
 export class RegistrationModule { }

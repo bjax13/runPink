@@ -5,7 +5,7 @@
     <span class="runner__pinkUnderline">Sign in.</span> -->
   </div>
 
-  <form class="" action="index.html" method="post">
+  <form [formGroup] = "runnerForm" (ngSubmit)="onSubmit()" >
 
     <!-- Basic Info section  -->
 
@@ -15,45 +15,57 @@
       </div>
       <div class="registrationForm__group">
         <div class="registrationForm__input">
-          <label for="firstName" class="registrationForm__subtitle">First Name<span class="registrationForm__pink">*</span></label>
+          <label for="firstName" class="registrationForm__subtitle">
+            First Name<span class="registrationForm__pink">*</span></label>
           <input
             type="text"
             id="firstName"
+            formControlName="firstName"
             class="registrationForm__inputBox">
         </div>
         <div class="registrationForm__input">
-          <label for="lastName" class="registrationForm__subtitle">Last Name<span class="registrationForm__pink">*</span></label>
+          <label for="lastName" class="registrationForm__subtitle">
+            Last Name<span class="registrationForm__pink">*</span></label>
           <input
             type="text"
             id="lastName"
+            formControlName="lastName"
             class="registrationForm__inputBox">
         </div>
         <div class="registrationForm__input">
-          <label for="email" class="registrationForm__subtitle">Email<span class="registrationForm__pink">*</span></label>
+          <label for="email" class="registrationForm__subtitle">
+            Email<span class="registrationForm__pink">*</span></label>
           <input
             type="text"
             id="email"
+            formControlName="email"
             class="registrationForm__inputBox">
         </div>
         <div class="registrationForm__input">
-          <label for="confirmEmail" class="registrationForm__subtitle">Confirm Email<span class="registrationForm__pink">*</span></label>
+          <label for="confirmEmail" class="registrationForm__subtitle">
+            Confirm Email<span class="registrationForm__pink">*</span></label>
           <input
             type="text"
             id="confirmEmail"
+            formControlName="confirmEmail"
             class="registrationForm__inputBox">
         </div>
         <div class="registrationForm__input">
-          <label for="password" class="registrationForm__subtitle">Password<span class="registrationForm__pink">*</span></label>
+          <label for="password" class="registrationForm__subtitle">
+            Password<span class="registrationForm__pink">*</span></label>
           <input
             type="text"
             id="password"
+            formControlName="password"
             class="registrationForm__inputBox">
         </div>
         <div class="registrationForm__input">
-          <label for="confirmPassword" class="registrationForm__subtitle">Confirm Password<span class="registrationForm__pink">*</span></label>
+          <label for="confirmPassword" class="registrationForm__subtitle">
+            Confirm Password<span class="registrationForm__pink">*</span></label>
           <input
             type="text"
             id="confirmPassword"
+            formControlName="confirmPassword"
             class="registrationForm__inputBox">
         </div>
         <div class="registrationForm__description">

@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+// import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { EventsModule } from './events/events.module'
 import { SharedModule } from './shared/shared.module';
 import { RegistrationModule } from './registration/registration.module';
+
 
 import { ResultsComponent } from './results/results.component';
 import { CharitiesComponent } from './charities/charities.component';
@@ -30,7 +31,8 @@ import { CurrentComponent } from './charities/current/current.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule,
+    // FormsModule,
+    // ReactiveFormsModule,
     HttpModule,
     AppRoutingModule,
     CoreModule,
