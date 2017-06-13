@@ -32,6 +32,10 @@ export class RunnerFormComponent implements OnInit {
     let password ='';
     let confirmPassword ='';
 
+    let streetAddress ="test - streetAddress";
+    let zipCode ="test - zipCode";
+    let city ="test - city";
+
     if(this.editMode){
       //if implementing editMode get runner from service then assign values
       // const runner = this.runnerService.getRunner(this.id)
@@ -45,6 +49,11 @@ export class RunnerFormComponent implements OnInit {
       'confirmEmail': new FormControl(confirmEmail),
       'password': new FormControl(password),
       'confirmPassword': new FormControl(confirmPassword),
+
+      'streetAddress': new FormControl(streetAddress),
+      'zipCode': new FormControl(zipCode),
+      'city': new FormControl(city),
+      
     })
   }
 
