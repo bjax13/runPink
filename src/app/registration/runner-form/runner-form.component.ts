@@ -78,6 +78,8 @@ export class RunnerFormComponent implements OnInit {
       'groupDiscount': new FormControl(groupDiscount),
       'releaseWaiver': new FormControl(releaseWaiver),
 
+      'donationAmount': new FormControl(),
+      'onBehalfOf': new FormControl(),
 
 
     })
